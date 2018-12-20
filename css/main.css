@@ -1,0 +1,94 @@
+/** {
+    border: 1px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #676858;  
+}
+
+p {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    line-height: 1.5em; 
+    text-align: justify;
+}
+
+.project-imgs{
+    border: .3em solid #bcbbbb;
+    padding: .3em;
+    margin: .5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    border-radius: 3%;
+}
+
+
+section.projects, .addnewproject {
+    color: #747704;
+}
+
+.text-muted {
+    color: #bcbbbb;
+    margin-left: 0.5em;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.text-super {
+    font-size: 60px;
+}
+
+.text-image {
+    font-size: 12px;
+    margin: 6px;
+    text-align: center;
+}
+
+.title-logo {
+    margin: 1em;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 40%; 
+}
+
+.text-logo {
+    font-size: 20px;
+}
+
+.page-header {
+    margin : 2em;
+
+}
+
+.icons, button {
+    display: inline-grid;
+    margin: 0.5em;
+}
+
+footer {
+    margin-bottom: 3em;
+}
+
+iframe {
+    width: 100%;
+    height: 35rem;
+    
+}
+
+/*@media only screen and (max-width: 500px){
+    p {
+        display: none;
+    }
+}
+*/
+
